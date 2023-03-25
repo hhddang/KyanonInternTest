@@ -1,6 +1,6 @@
 Mở terminal:
-1. git i
-2. git start
+1. npm i
+2. npm start
 
 Truy cập localhost:3000 để xem website
 Trang login mặc định user là admin@kyanon.digital và password là admin
