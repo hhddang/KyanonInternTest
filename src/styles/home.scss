@@ -1,0 +1,52 @@
+.login-form {
+  width: 350px;
+  height: 550px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 150px 20px 0;
+
+  .title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    label {
+      margin-bottom: 5px;
+      color: blue;
+    }
+    input {
+      height: 35px;
+      padding: 5px;
+    }
+  }
+
+  .login-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+
+  }
+
+  .show-password-group {
+    
+  }
+
+  .signin-btn {
+    background-color: blue;
+    color: white;
+    width: 120px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+  }
+}
